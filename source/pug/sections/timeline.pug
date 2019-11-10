@@ -1,0 +1,10 @@
+section.timeline
+  ol(id="ol").timeline__lists
+    each val, index in ['Step1', 'Step2', 'Step3', 'Step4']
+      li.timeline__list
+        span.timeline__name= val
+  div.types
+    button(type="button" id="type1").type Вид 1
+    button(type="button" id="type2").type Вид 2
+    button(type="button" id="type3").type Вид 3
+    button(type="button" id="type4").type Вид 4
